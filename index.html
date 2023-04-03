@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Riverview hospital</title>
+</head>
+
+<body>
+    <div style="border: solid 2px black; padding: .5rem;">
+        <form>
+            <fieldset>
+                <legend>Doctor Informations</legend>
+                <p>
+                    <label>First Name: <input first name="first name" /></label>
+                </p>
+                <p>
+                    <label>Last Name: <input type="last name" name="last name" /></label>
+                </p>
+                <p>
+                    <label>Email Address: <input type="email" name="email" /></label>
+                </p>
+                <p>
+                    <label>Phone Number: <input type="phone number" name="phone number" /></label>
+                </p>
+                <p>
+                    <label>Address: <input type="address" name="address" /></label>
+                </p>
+            </fieldset>
+            <br />
+            <fieldset>
+                <legend>Doctors</legend>
+                <p>
+                    <input type="radio" name="size" id="size0" value="size0" />
+                    <label for="size0">Pediatrics</label>
+                </p>
+                <p>
+                    <input type="radio" name="size" id="size1" value="size1" />
+                    <label for="size1">Surgeons</label>
+                </p>
+                <p>
+                    <input type="radio" name="size" id="size2" value="size2" />
+                    <label for="size2">Radiologists</label>
+                </p>
+               
+            </fieldset>
+            <br />
+            <fieldset>
+                <legend>Appointment details</legend>
+                <p>
+                    <label for="time">Morning appointment:</label>
+                    <input id="time" name="time" type="time" min="11:00" max="21:00" step="900">
+                </p>
+                <p>
+                    Appointment Instructions:
+                    <textarea name="instructions"></textarea>
+                </p>
+                <p>
+                    <button type="submit">Submit Order</button>
+                </p>
+            </fieldset>
+        </form>
+    </div>
+    <h1>Doctors</h1>
+    <ul>
+        <li>Pediatrics</li>
+        <li>Surgeons</li>
+        <li>Radiologists</li>
+    </ul>
+
+    <h1>Specialists</h1>
+    <div>
+        <h2>Pediatrician</h2>
+        <p>(PEE-dee-uh-TRIH-shun) A doctor who has special training in preventing, diagnosing, and treating diseases and
+            injuries in children. Pediatricians also help manage other problems that affect children, such as
+            developmental disorders and behavioral, emotional, and social problems.
+        </p>
+    </div>
+
+    <div style="border:1px solid #a00c80;">
+        <h2>Surgeon</h2>
+        <p>A surgeon is a doctor who specializes in evaluating and treating conditions that may require surgery, or
+            physically changing the human body. Surgeries can be done to diagnose or treat disease or injury. In the
+            operating room, surgeons lead a team of other doctors and nurses to make sure that a procedure goes
+            smoothly.
+        </p>
+    </div>
+
+    <div style="background-color: hwb(338 27% 4%);">
+         <h2>Radiologist</h2>
+         <p>Radiologists are medical doctors that specialize in diagnosing and treating injuries and diseases using
+            medical imaging radiology procedures exams/tests such as X-rays, computed tomography CT, magnetic
+            resonance imaging MRI, nuclear medicine, positron emission tomography and ultrasound.
+        </p>
+    </div>
+    <nav style="text-align: right;">
+        <a href="../1-HTML-RECAP/index.html">HTML Recap</a>
+    </nav>
+
+    <nav>
+        <h1>Doctors Navigation Bar</h1>
+        <ul>
+            <li>
+                <a href="./03-lists.html">Lists</a>
+            </li>
+            <li>
+                <a href="./05-images.html">Images</a>
+            </li>
+            <li>
+                <a href="./06-tables.html">Tables</a>
+            </li>
+        </ul>
+    </nav>
+    <h1>Video</h1>
+    <p>
+        Types of Doctors Specialists
+    </p>
+    <iframe src="https://www.youtube.com/embed/hyXVRbyj3QE" frameborder="0" width="560" height="315" allowfullscreen>
+    </iframe>
+   
+</body>
+
+</html>
